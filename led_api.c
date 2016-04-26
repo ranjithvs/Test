@@ -45,34 +45,12 @@ int led_init()
 	return fd;
 }
 
-/*!
- * \brief
- *  Print information function.
- *
- * \details
- * This function is used to print a message on the screen.
- *  
- * \param [in] void 
- *
- */
-
 void print_info (void)
 {
 	printf("\n\r Select one gpio pin number");
 
 }
 
-/*!
- * \brief
- *  Main function.
- *
- * \details
- * This function is used to select options and to make 
- * led on/off or to know the status of the selected led 
- * using ioctl function. 
- *
- *
- */
 
 int main ()
 {
